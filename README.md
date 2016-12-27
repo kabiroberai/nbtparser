@@ -1,19 +1,19 @@
-# nbtparser
+# NBTParser
 A Swift NBT Parser
 
 ## Usage
 
-# Path
+### Path
 ```swift
 NBTDictionary(contentsOf: path)
 ```
 
-# URL
+### URL
 ```swift
 NBTDictionary(contentsOf: url)
 ```
 
-# Data
+### Data
 ```swift
 NBTDictionary(data: data)
 ```
