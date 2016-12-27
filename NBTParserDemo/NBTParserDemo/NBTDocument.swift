@@ -10,7 +10,6 @@ import Cocoa
 import NBTParser
 
 class NBTDocument: NSDocument {
-
 	var dict: NBTDictionary?
 	
 	override func makeWindowControllers() {
@@ -32,6 +31,4 @@ class NBTDocument: NSDocument {
 			Swift.print(error)
 		}
 	}
-
 }
-
