@@ -122,6 +122,7 @@
 				56F5804C1D8EA91C004B7FCE /* Frameworks */,
 				56F5804D1D8EA91C004B7FCE /* Headers */,
 				56F5804E1D8EA91C004B7FCE /* Resources */,
+				56027BE01E12B4EF00ECFF86 /* Reveal in Finder */,
 			);
 			buildRules = (
 			);
@@ -140,6 +141,7 @@
 				56F5806A1D8EA9DE004B7FCE /* Frameworks */,
 				56F5806B1D8EA9DE004B7FCE /* Headers */,
 				56F5806C1D8EA9DE004B7FCE /* Resources */,
+				56027BE11E12B50D00ECFF86 /* Reveal in Finder */,
 			);
 			buildRules = (
 			);
@@ -210,6 +212,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56027BE01E12B4EF00ECFF86 /* Reveal in Finder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Reveal in Finder";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/open -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"";
+		};
+		56027BE11E12B50D00ECFF86 /* Reveal in Finder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Reveal in Finder";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/open -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56F5804B1D8EA91C004B7FCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,7 +304,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -315,7 +349,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -342,7 +377,7 @@
 				);
 				INFOPLIST_FILE = Sources/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kabiroberai.NBTParser-iOS";
@@ -377,7 +412,7 @@
 				);
 				INFOPLIST_FILE = Sources/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kabiroberai.NBTParser-iOS";
@@ -414,7 +449,7 @@
 				INFOPLIST_FILE = Sources/macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kabiroberai.NBTParser-macOS";
 				PRODUCT_NAME = NBTParser;
 				SKIP_INSTALL = YES;
@@ -447,7 +482,7 @@
 				INFOPLIST_FILE = Sources/macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kabiroberai.NBTParser-macOS";
 				PRODUCT_NAME = NBTParser;
 				SKIP_INSTALL = YES;
