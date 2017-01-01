@@ -1,6 +1,4 @@
-ACKNOWLEDGEMENTS:
-
-----------GzipSwift----------
+# GzipSwift
 
 The MIT License (MIT)
 
@@ -24,6 +22,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
------------------------------
+# MCNBTParser
 
-Luca Todesco for [MCNBTParser](https://github.com/kpwn/MCNBTParser/), on which this project is based
+[MCNBTParser](https://github.com/kpwn/MCNBTParser/) by Luca Todesco, on which this project is based
