@@ -25,3 +25,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -----------------------------
+
+Luca Todesco for [MCNBTParser](https://github.com/kpwn/MCNBTParser/), on which this project is based
